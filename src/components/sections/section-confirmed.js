@@ -6,7 +6,7 @@ export const SectionConfirmed = () => {
         <div className='d-flex section-container-back'>
             <div className='header-title'>
                 <h1 className='title-bg'> Confirmar asistencia </h1>
-                <a href="" class="btn btn-success ">Confirmar</a>
+                <a href="#NotFound" class="btn btn-success ">Confirmar</a>
             </div>
         </div>
 
