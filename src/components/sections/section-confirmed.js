@@ -10,14 +10,14 @@ export const SectionConfirmed = () => {
     }
 
     useEffect(() => {
-        getClient().then(res=> console.log(res))
+        getClient().then(res=> console.log(res)).catch(err => console.log(err))
     }, [])
     
     return (
         <div className='d-flex section-container-back'>
             <div className='header-title'>
                 <h1 className='title-bg'> Confirmar asistencia </h1>
-                <a href="" class="btn btn-success ">Confirmar</a>
+                <a href="" className="btn btn-success ">Confirmar</a>
             </div>
         </div>
 
