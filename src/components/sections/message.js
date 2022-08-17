@@ -13,7 +13,8 @@ export const Message = () => {
                 <p className='title-Message'>
                     El hombre que halla esposa encuentra un tesoro, y recibe el favor del señor. (Prov. 18:22)
                 </p>
-
+                
+                <span className='subtitle-boda'> Nos hemos encontrado y por eso nos casamos.</span>
             </div>
         </div>
 
