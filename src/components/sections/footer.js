@@ -4,7 +4,7 @@ import './footer.css'
 
 export const Footer = ({bodaName, date}) => {
   return (
-    <div className='row footer'> 
+    <div className='footer'> 
             <h5 className='d-flex justify-content-center creditos'>Boda Jhon & Angie - Sabana Eventos</h5>
             <div className='d-flex linear'>
                 <a href='https://api.whatsapp.com/send?phone=573104770034&app=facebook&entry_point=page_cta&fbclid=IwAR1psgzQwgXcnLWDxmK4vNilRJOuk-ndncZo0W4JyfNX-N88a-pNsU-NwH4'>

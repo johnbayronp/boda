@@ -1,5 +1,8 @@
 .footer{
     background-color: #06341e;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
 }
 .creditos{
 
