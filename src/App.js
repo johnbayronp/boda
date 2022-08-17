@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState } from 'react'
+import { Home } from './page/Home';
+import { Loader }from  './components/utils';
 
 function App() {
+  
+  const [loading,setLoading ] = useState(true);
+  
+  setTimeout(() => {
+    setLoading(false)
+  }, 4700);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      { (loading) ? 
+        <Loader/>:
+        <Home nombres={"Jhon & Angie"} fecha={"10-09-22 04:00:00"}/>
+      }
     </div>
   );
 }

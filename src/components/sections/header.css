@@ -1,0 +1,87 @@
+.header-title-novios{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO-7.png") ;
+    opacity: 90%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .title-boda {
+    font-size:5.2rem;
+    color:white;
+    font-family: 'Great Vibes';
+    font-weight: 500;
+  }
+
+  .title-bg{
+    font-size:5.2rem;
+    color:#418f76;
+    font-family: 'Great Vibes';
+    font-weight: 500;
+  }
+
+  .subtitle-boda{
+    margin-top: 50px;
+    font-size:1rem;
+    color:white;
+    font-family: 'poppins';
+    font-weight: 300;
+    margin:0;
+    letter-spacing: 0.355em;
+  }
+  .header-title-message{
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.809)) , url("../../img/FOTO-7.png") ;
+    opacity: 90%;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header-title{
+    text-align: center;
+    align-self: center;
+    width: 100%;
+  }
+    
+  .gallery-header-title{
+      
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .title-Message{
+    color:#418f76;
+    font-family: 'Bebas Neue';
+    margin-left: 20px;
+    font-size:1.5rem;
+    margin-right:20px;
+    color:white
+  }
+  .subtitle-Message{
+
+    color:white;
+    font-weight: 200;
+    font-family: 'poppins';
+  }
+  
+  @media (max-width: 425px) {
+    
+  .title-boda {
+    font-size:4.2rem;
+  }
+  .subtitle-boda{
+    font-size: 0.6rem ;
+  }
+  .title-bg{
+    font-size: 3.2rem;
+  }
+  }

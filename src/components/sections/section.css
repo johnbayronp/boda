@@ -1,0 +1,175 @@
+.section-container{
+    justify-content: center;
+    height: 76vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.897), rgba(255, 255, 255, 0.55)) , url("../../img/LEAVES_BACKGROUND.jpg") ;
+    background-color: #f8fffa;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-container-back{
+    
+    justify-content: center;
+    background-color: #98e4af79;
+    height: 400px;
+
+}
+.gallery{
+    height: 10vh;
+}
+
+.section-img-container-back{
+    
+    justify-content: center;
+    height: 650px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.733), rgb(255, 255, 255)) , url("../../img/LEAVES_BACKGROUND.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.section-container2{
+    background-color: #408153;
+    height: 100vh;
+}
+
+.photo-bio{
+    border-radius: 10%;
+    height: 60vh;
+    
+}
+
+.container-biografia{
+    display: flex;
+    width: 80%;
+}
+
+.title-bio{
+
+    color:#418f76;
+    font-family: 'Great Vibes';
+    font-size: 4rem;
+}
+
+
+
+.body-bio{
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+    color:#545454;
+    text-align: justify;
+    font-weight: 300;
+}
+.resize-column {
+    padding:30px;
+}
+
+.modf{
+    
+    padding: 0px !important;
+
+}
+.padding-4{
+    padding: 4rem;
+}
+
+.photo-gallery{
+    height: 60vh;
+}
+
+.carousel-indicators {
+    bottom:-46px !important;
+}
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #418f76 !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50% !important;
+}
+
+@media(max-width: 1000px) {
+
+    .title-bio{
+        font-size: 4.5rem;
+        text-align: center;
+    }
+    
+    .body-bio{
+        font-size: 0.9rem;
+        font-weight: 300;
+        text-align: justify;
+    }
+    .container {
+        padding: 20px !important;
+    }
+        
+    .modf{
+        
+        padding: 0px !important;
+
+    }
+
+    .resize-column {
+        flex-direction: column;
+        text-align:center;
+        padding:0;
+    }
+    .pt-5 {
+        margin-top: 0 !important;
+    }
+    .col-4{
+        flex: 1 0 0% !important;
+        justify-content: center !important;
+        width: 100%;
+    }
+
+    .photo-bio{
+        margin-left: 0 !important;
+        margin-bottom: 20px !important;
+    }
+    
+    .section-container{
+        height: 114vh;
+        background-position: 53% 48%;
+    }
+
+}
+
+
+@media (max-width: 425px) {
+    
+    .title-boda {
+      font-size:4.2rem;
+    }
+    .subtitle-boda{
+      font-size: 0.6rem ;
+    }
+    .photo-bio{
+        height: 40vh;
+        border-radius: 150px;
+        margin: 0 !important;
+    }
+    .photo-gallery{
+
+        height: 200px;
+    }
+
+    .section-container{
+        height: 73vh;
+        background-position: 25% 48%;
+    }
+    
+    .title-bio{
+        font-size: 2.5rem;
+    }
+    
+    .body-bio{
+        font-size: 0.8rem;
+    }
+        
+    .section-img-container-back{
+        height: 400px;
+    }
+}
