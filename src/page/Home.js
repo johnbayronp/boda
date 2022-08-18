@@ -5,7 +5,7 @@ import { Header,Section1,Section2,Section3,Section4,SectionConfirmed,Message,Foo
 
 export const Home = ({nombres, fecha}) => {
     
-  const dateString = moment(fecha).format('LL').toUpperCase();
+  const dateString = moment(fecha,"MM-DD-YYYY").format('LL').toUpperCase();
 
 
   return (

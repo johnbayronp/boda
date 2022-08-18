@@ -31,7 +31,7 @@
     font-family: 'poppins';
     font-weight: 300;
     margin:0;
-    letter-spacing: 0.355em;
+    letter-spacing: 0.025em;
   }
   .header-title-message{
     display: flex;
@@ -82,8 +82,10 @@
     font-size:4.2rem;
   }
   .subtitle-boda{
-    font-size: 0.6rem ;
+    font-size: 0.7rem ;
+    letter-spacing: 0.025em ;
   }
+  
   .title-bg{
     font-size: 3.2rem;
   }
