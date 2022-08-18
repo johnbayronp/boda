@@ -17,7 +17,7 @@ function App() {
 
           { (loading) ? 
               <Loader/>:
-              <Home nombres={"Jhon & Angie"} fecha={"10-09-22 04:00:00"}/>
+              <Home nombres={"Jhon & Angie"} fecha={"10-09-22"}/>
           }
 
     </div>
