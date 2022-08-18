@@ -11,15 +11,15 @@ export const Section3 = () => {
                     <h1 className='title-bg'> Galería </h1>
                     <div
                         id="carouselExampleDark"
-                        class="carousel carousel-dark slide"
+                        className="carousel carousel-dark slide"
                         data-bs-ride="carousel"
                     >
-                        <div class="carousel-indicators">
+                        <div className="carousel-indicators">
                             <button
                                 type="button"
                                 data-bs-target="#carouselExampleDark"
                                 data-bs-slide-to="0"
-                                class="active"
+                                className="active"
                                 aria-label="Slide 1"
                                 aria-current="true"
                             ></button>
@@ -28,24 +28,24 @@ export const Section3 = () => {
                                 data-bs-target="#carouselExampleDark"
                                 data-bs-slide-to="1"
                                 aria-label="Slide 2"
-                                class=""
+                                className=""
                             ></button>
                             <button
                                 type="button"
                                 data-bs-target="#carouselExampleDark"
                                 data-bs-slide-to="2"
                                 aria-label="Slide 3"
-                                class=""
+                                className=""
                             ></button>
                         </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="2000">
+                        <div className="carousel-inner">
+                            <div className="carousel-item active" data-bs-interval="2000">
                                 <img src={image1} alt="foto-x1" className='photo-gallery' />
                             </div>
-                            <div class="carousel-item" data-bs-interval="2000">
+                            <div className="carousel-item" data-bs-interval="2000">
                                 <img src={image2} alt="foto-x2" className='photo-gallery' />
                             </div>
-                            <div class="carousel-item">
+                            <div className="carousel-item">
                                 <img src={image3} alt="foto-x3" data-bs-interval="500" className='photo-gallery' />
                             </div>
                         </div>
