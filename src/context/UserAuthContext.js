@@ -15,7 +15,7 @@ export function UserAuthContextProvider({children}){
     const signUp = (email,password) {
         return createUserWithEmailAndPassword(email,password)
     }*/
-    const [usuarioLogged,setUsuarioLogged] = useState({});
+    const [usuarioLogged,setUsuarioLogged] = useState('');
     
     function login(email,password) {
         return signInWithEmailAndPassword(auth,email,password)
@@ -28,10 +28,13 @@ export function UserAuthContextProvider({children}){
     const unsuscribe = onAuthStateChanged(auth,(currentUser)=> {
         setUsuarioLogged(currentUser);
     })
-    
+
     useEffect(()=> {
-        unsuscribe();
-    },[]) 
+            
+        return(()=>{
+            unsuscribe();
+        })
+    }) 
 
 
     return (

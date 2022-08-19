@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './index.css'
 import {ToastSuccess } from '../utils'
 import { useUserAuth } from '../../context/UserAuthContext';
-import { auth } from '../../infrastructure/api';
+//import { auth } from '../../infrastructure/api';
 
 
 export const Login = () => {
@@ -19,16 +19,20 @@ export const Login = () => {
         setError("");
         try{
             await login(email,password) 
-            navigate('/admin');
+            navigate("/admin");
         }catch(err){
             setError("Email o Contraseña invalidos");
         }
     }
-    useEffect(()=>{
+
+    function verify(){
         if(usuarioLogged){
             navigate('/admin')
         }
-    },[])
+    }
+    useEffect(()=>{
+        verify()
+    })
 
      /* <p> <Link to="/">Boda</Link></p>  links para otras routes*/ 
     return (
