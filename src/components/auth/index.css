@@ -1,0 +1,91 @@
+
+
+.main-head{
+    height: 150px;
+    background: rgb(255, 255, 255);  
+}
+.title-header-form{
+    font-family: 'Poppins';
+}
+.inpt{
+    font-family: 'poppins' !important;
+}
+
+.sidenav {
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO1.jpg") ;
+    background-position:10% 40%;
+    background-size: 800px;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    padding-top: 20px;
+}
+
+.tilte-nav{
+    color:rgb(255 242 179);
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+
+.main {
+    padding: 20px 26px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+        background-position:20% 50%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+
+    .register-form{
+        margin-top: 10%;
+    }
+    .main{
+        padding: 6px 37px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-position:20% 50%;
+    }
+
+    .login-form{
+        margin-top: 60%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+
+
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #fff;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #418f76 !important;
+    color: #fff;
+}
