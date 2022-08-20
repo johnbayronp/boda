@@ -24,7 +24,6 @@ export const ModalConfirmed = ({ people }) => {
     }
     const handleInputChange = (e) => {
         setInputValue(e.target.value)
-        console.log(inputValue)
     }
 
     return (

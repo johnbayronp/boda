@@ -30,7 +30,6 @@ export const ExcelImportButton = () => {
               guardar(json,name)
             };
             e.target.value = null;
-            console.log('valido')
           } 
           if(!ext ){
             setNotificacion({ message: "Formato invalido", err: true })
@@ -51,7 +50,7 @@ const guardar = (json,filename) => {
       setNotificacion({ status:'importado',message: `${filename}, guardado exitosamente!`, err: false })
       setTimeout(() => setNotificacion({ err: false }), 3000)
 
-      console.log('guardando.....',json)
+      //console.log('guardando.....',json)
     }else if(!res){
       setNotificacion({ err: false })
     }

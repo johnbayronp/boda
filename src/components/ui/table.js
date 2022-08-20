@@ -48,7 +48,6 @@ class Table extends React.Component {
   
     constructor(props){
         super(props)
-        console.log(props)
         this.state = {peoples: props.people}
     }
 

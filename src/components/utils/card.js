@@ -8,12 +8,10 @@ export const Card = ({ id,person }) => {
     const [confirmed, setConfirmed] = useState(false);
 
     const handleConfirmed = async (currentID) => {
-        console.log('Asistiras',currentID)
         await db.collection("invitados ").doc(currentID).update({confirmado:true,asistencia:true})
         setConfirmed(true)
     }
     const handleNoConfirmed = async(currentID) => {
-        console.log('No Asistira',currentID)
         await db.collection("invitados ").doc(currentID).update({confirmado:true,asistencia:false})
         setConfirmed(true)
     }
