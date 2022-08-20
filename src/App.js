@@ -3,6 +3,7 @@ import './infrastructure/api/fire-credential';
 import React, { useState } from 'react'
 import { Home } from './page/Home';
 import { Loader } from './components/utils';
+import { Participativa } from './page/Participativa';
 import { Login } from './components/auth';
 import { Routes,Route } from 'react-router-dom';
 import {UserAuthContextProvider}  from './context/UserAuthContext';
@@ -27,6 +28,12 @@ function App() {
             <ProtectedRoute>
               <Dashboard/>
             </ProtectedRoute>
+          }/>
+          
+          <Route  path={"/participativa"} element={
+            (loading) ? 
+            <Loader/>:
+            <Participativa nombres={"Jhon & Angie"} fecha={"10-09-22"}/>
           }/>
 
           <Route path="/" element={   

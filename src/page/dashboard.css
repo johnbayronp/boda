@@ -1,0 +1,154 @@
+
+.wrapper {
+    width: 100%;
+}
+
+
+#sidebar {
+    min-width: 180px;
+    max-width: 270px;
+    background: #2e7447;
+    color: #fff;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#sidebar.active {
+    min-width: 180px;
+    max-width: 230px;
+    text-align: center;
+}
+
+#sidebar.active ul.components li {
+    font-size: 14px;
+}
+
+#sidebar.active ul.components li span {
+    padding: 10px 0;
+}
+
+#sidebar.active ul.components li span {
+    padding: 23px 59px;
+    display: block;
+    font-family: 'poppins';
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid
+}
+
+#sidebar.active .logo {
+    padding: 50px 0;
+    text-decoration: none;
+}
+
+#sidebar.active .footer {
+    display: none;
+}
+
+#sidebar .logo {
+    display: block;
+    color: #fff;
+    font-weight: 900;
+    padding: 10px 30px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #sidebar .logo {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+#sidebar ul.components {
+    padding: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #sidebar ul.components {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+    }
+}
+
+#sidebar ul li {
+    font-size: 16px;
+}
+
+#sidebar ul li>ul {
+    margin-left: 10px;
+}
+
+#sidebar ul li>ul li {
+    font-size: 14px;
+}
+
+#sidebar ul li a {
+    padding:23px 59px;
+    display: block;
+    font-family: 'poppins';
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.header-dash{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+
+@media (max-width: 991.98px) {
+    #sidebar ul li span {
+        display: block;
+    }
+}
+
+#sidebar ul li a:hover {
+    color: #fff;
+}
+
+#sidebar ul li.active>a {
+    background: transparent;
+    color: #fff;
+}
+
+@media (max-width: 991.98px) {
+    #sidebar {
+        min-width: 180px;
+        max-width: 230px;
+        text-align: center;
+        margin-left: -80px !important;
+    }
+
+    #sidebar.active {
+        margin-left: 0 !important;
+    }
+}
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+.logout{
+    background-color: #d53d3d ;
+}
+
+
+#content {
+    width: 80%;
+    padding: 0;
+    min-height: 100vh;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}

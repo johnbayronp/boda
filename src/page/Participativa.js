@@ -1,11 +1,10 @@
 import React from 'react'
 import moment from 'moment';
 import 'moment/locale/es';
-import { Header,Section1,Section2,Section3,Section4,SectionConfirmed,Message,Footer} from '../components/sections';
+import { Header,Section1,Section2,Section3,Section4,Message,Footer} from '../components/sections';
 
 
-
-export const Home = ({nombres, fecha}) => {
+export const Participativa = ({nombres, fecha}) => {
     
   const dateString = moment(fecha,"MM-DD-YYYY").format('LL').toUpperCase();
 
@@ -15,9 +14,8 @@ export const Home = ({nombres, fecha}) => {
      <Section1 /> 
      <Section2 />
      <Section3 />
-     <Section4/>
+     <Section4 participativa={true}/>
      <Message /> 
-     <SectionConfirmed/>
      <Footer/>
     </> 
   )
