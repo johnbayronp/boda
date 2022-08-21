@@ -2,11 +2,31 @@ import './contador.css';
 
 import * as  XLSX from 'xlsx';
 import React, { useEffect, useState } from 'react';
-
+import db from '../../infrastructure/api/fire-credential';
 
 export const ExcelImportButton = () => {
   //const [file, setFile] = useState();
   //const [json, setJson] = useState();
+
+  
+  const guardarImportacionInvitados = (json) => {
+    
+     json.forEach(async currentInvitado => {
+      currentInvitado.id_cliente = currentInvitado.id_cliente.toString()
+      await db.collection("invitados ").doc().set(currentInvitado)
+        .then(res => {
+          setNotificacion({ status:'guardado',message: `guardado en base de datos!`, err: false })
+          setTimeout(() => setNotificacion({ err: false }), 3000)
+        }
+        )
+      .catch(err => {
+        setNotificacion({ message: "ALERTA! , No guardo en base de datos! "+currentInvitado.nombre, err: true })
+        setTimeout(() => setNotificacion({ err: false }), 3000)
+      })
+      
+    });
+  }
+
   const [notificacion, setNotificacion] = useState({ message: '', err: false })
 
   const handleChange = (e) => {
@@ -16,8 +36,9 @@ export const ExcelImportButton = () => {
 
           const {name} = e.target.files[0]
           let ext = e.target.files[0].name.split('.').includes("xlsx")
+          let fileValido = e.target.files[0].name.split('.').includes("BODA_INVITADOS")
 
-          if(ext){
+          if(ext && fileValido){
               
             reader.readAsArrayBuffer(e.target.files[0]);
             reader.onload = (x) => {
@@ -32,7 +53,7 @@ export const ExcelImportButton = () => {
             e.target.value = null;
           } 
           if(!ext ){
-            setNotificacion({ message: "Formato invalido", err: true })
+            setNotificacion({ message: "Formato invalido o Archivo incorrecto", err: true })
           }
         }catch (err) {
           setNotificacion({ message: "El no fue importado, archivo invalido", err: true })
@@ -49,8 +70,7 @@ const guardar = (json,filename) => {
     if(res) {
       setNotificacion({ status:'importado',message: `${filename}, guardado exitosamente!`, err: false })
       setTimeout(() => setNotificacion({ err: false }), 3000)
-
-      //console.log('guardando.....',json)
+      guardarImportacionInvitados(json)
     }else if(!res){
       setNotificacion({ err: false })
     }

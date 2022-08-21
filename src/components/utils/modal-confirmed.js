@@ -11,19 +11,26 @@ export const ModalConfirmed = ({ people }) => {
     const [allow, setAllow] = useState(true);
 
     const handleSearch = ( e ) => {
-        if( inputValue!== ''){
-            let finded = people.filter(invitado => invitado.nombreCompleto.includes(inputValue.toLowerCase()))
-            
-            if(finded.length === 0) {
-                setAllow(false)
-            }else if( finded.length>0){
-                setAllow(true)
-                setInvitado(finded)
+        if( inputValue !== ''){
+            if(inputValue.length > 1) {
+                console.log(inputValue)
+                let finded = people.filter(invitado => invitado.nombreCompleto.includes(inputValue.toLowerCase()))
+                
+                if(finded.length === 0) {
+                    setAllow(false)
+                }else if( finded.length>0){
+                    setAllow(true)
+                    setInvitado(finded)
+                }
             }
         }
     }
     const handleInputChange = (e) => {
-        setInputValue(e.target.value)
+        setInputValue(e.target.value.normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
+        if(inputValue.length<3){
+            setInvitado([])
+        }
+        handleSearch()
     }
 
     return (
