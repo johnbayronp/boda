@@ -17,15 +17,22 @@ const selectOptions2 = {
 
 const columns = [{
   dataField: 'posList',
-  text: 'ID'
+  text: 'ID',
+  sort:true
 }, {
   dataField: 'nombre',
   text: 'Nombre',
-  filter: textFilter()
+  sort:true,
+  filter: textFilter({
+    placeholder:"Filtrar Nombre"
+  })
 }, {
     dataField: 'apellidos',
     text: 'Apellidos',
-    filter: textFilter()
+    sort:true,
+    filter: textFilter({
+      placeholder:"Filtrar Apellidos"
+    })
   }, {
   dataField: 'confirmado',
   text: 'Confirmacion',
