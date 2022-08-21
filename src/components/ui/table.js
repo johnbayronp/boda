@@ -33,7 +33,14 @@ const columns = [{
     filter: textFilter({
       placeholder:"Filtrar Apellidos"
     })
-  }, {
+  },  {
+    dataField: 'telefono',
+    text: 'Telefono',
+    sort:true,
+    filter: textFilter({
+      placeholder:"Filtrar Telefono"
+    })
+  },{
   dataField: 'confirmado',
   text: 'Confirmacion',
   formatter: cell => selectOptions[cell],
