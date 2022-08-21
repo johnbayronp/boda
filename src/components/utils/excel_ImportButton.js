@@ -12,6 +12,9 @@ export const ExcelImportButton = () => {
   const guardarImportacionInvitados = (json) => {
     
      json.forEach(async currentInvitado => {
+      currentInvitado["confirmado"] = false;
+      currentInvitado["asistencia"] = false;
+      currentInvitado["cancion"]="no-definida"
       currentInvitado.id_cliente = currentInvitado.id_cliente.toString()
       await db.collection("invitados ").doc().set(currentInvitado)
         .then(res => {
