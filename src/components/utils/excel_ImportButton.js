@@ -86,7 +86,7 @@ useEffect(() => {
 
 return (
   <>
-
+  <div className='card re p-3 mb-2'> 
    <h3> Importar Invitados </h3>
     <form >
       <input
@@ -97,8 +97,9 @@ return (
       />
     </form>
 
-    {!notificacion.err && notificacion.status ? <p className='alert alert-success'>{notificacion.message}</p> : null}
-    {notificacion.err ? <p className='alert alert-danger'>{notificacion.message}</p> : null}
+    {!notificacion.err && notificacion.status ? <p className='alert alert-success mt-3'>{notificacion.message}</p> : null}
+    {notificacion.err ? <p className='alert alert-danger mt-3'>{notificacion.message}</p> : null}
+  </div>
   </>
 );
 };

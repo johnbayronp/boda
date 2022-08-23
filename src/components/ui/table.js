@@ -55,6 +55,20 @@ const columns = [{
       options: selectOptions2,
       defaultValue: 0
     })
+},{
+  dataField: 'adultos',
+  text: 'Adultos',
+  sort:true,
+  filter: textFilter({
+    placeholder:"Filtrar Adultos"
+  })
+},{
+  dataField: 'niños',
+  text: 'Niños',
+  sort:true,
+  filter: textFilter({
+    placeholder:"Filtrar Niños"
+  })
 }];
 
 class Table extends React.Component {
@@ -71,8 +85,8 @@ class Table extends React.Component {
       paginationSize: 4,
       pageStartIndex: 1,
       firstPageText: 'First',
-      prePageText: 'Back',
-      nextPageText: 'Next',
+      prePageText: 'Atras',
+      nextPageText: 'Siguiente',
       lastPageText: 'Last',
       nextPageTitle: 'First page',
       prePageTitle: 'Pre page',
