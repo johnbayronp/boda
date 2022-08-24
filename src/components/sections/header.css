@@ -58,7 +58,7 @@
 
 
   .audio-voice{
-    top:150px;
+    top:92px;
     text-align:center;
     padding:10px;
     font-family:'poppins';
@@ -139,7 +139,9 @@
     font-size: 0.7rem ;
     letter-spacing: 0.025em ;
   }
-  
+  .audio-voice{
+    top:112px;
+  }
   .title-bg{
     font-size: 3.2rem;
   }
