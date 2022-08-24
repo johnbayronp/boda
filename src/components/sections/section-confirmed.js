@@ -12,7 +12,6 @@ export const SectionConfirmed = () => {
         .onSnapshot( (snapshot) => { 
             let docs = [];
             snapshot.forEach(doc => {
-                console.log(doc.data())
                 docs.push({
                     ...doc.data(),
                     id:doc.id,

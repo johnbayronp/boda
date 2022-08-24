@@ -5,6 +5,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO-7.png") ;
     opacity: 90%;
     background-color: black;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -22,6 +23,59 @@
     color:#418f76;
     font-family: 'Great Vibes';
     font-weight: 500;
+  }
+  .oculta{
+    display: none;
+  }
+
+  .remove{
+    
+    top:150px;
+    text-align:center;
+    padding:10px;
+    font-family:'poppins';
+    border-radius:150px;
+    opacity:60%;
+    color:white;
+
+    font-size: 0px;
+    position: relative;
+    animation: remove 0.5s ;
+  }
+  
+  @keyframes remove {
+    0% {
+      opacity: 60%;
+    }
+    50% {
+      opacity: 10%;
+    }
+    100%{
+      opacity: 0%;
+    }
+    
+  }
+
+
+  .audio-voice{
+    top:150px;
+    text-align:center;
+    padding:10px;
+    font-family:'poppins';
+    border-radius:150px;
+    opacity:60%;
+    color:white;
+    position: relative;
+    animation: touch 1.8s infinite;
+  }
+  @keyframes touch {
+    0%, 100% {
+      font-size: 20px;
+    }
+    50% {
+      font-size: 22px;
+    }
+    
   }
 
   .subtitle-boda{
