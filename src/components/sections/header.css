@@ -35,7 +35,7 @@
     padding:10px;
     font-family:'poppins';
     border-radius:150px;
-    opacity:60%;
+    opacity:70%;
     color:white;
 
     font-size: 0px;
@@ -63,7 +63,7 @@
     padding:10px;
     font-family:'poppins';
     border-radius:150px;
-    opacity:60%;
+    opacity:70%;
     color:white;
     position: relative;
     animation: touch 1.8s infinite;
