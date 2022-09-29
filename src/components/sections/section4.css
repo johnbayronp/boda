@@ -30,6 +30,7 @@
     .card{
        --bs-card-bg: #083c0c1f !important;
        --bs-card-border-width: 0px !important;
+       justify-content: center;
     }
     .card-title{
         font-family: 'Poppins';
@@ -38,12 +39,28 @@
     .card-text {
         color:#2c1f1fed;
         font-family:'Poppins';
-        
+    }
+    .qr{
+      width: 80%;
+    }
+    .card-body{
+      flex: 1;
+      text-align-last: center;
     }
     .btn-success{
         --bs-btn-hover-border-color: #36a973;
         --bs-btn-bg: #449b72e3;
         font-family: 'Poppins';
+    }
+    .center-qr{
+      text-align: center !important;
+    }
+    .morado {
+      color: white  !important;
+    }
+    .morado-card {
+      
+      --bs-card-bg:#22004c !important;
     }
 
 @media (max-width: 425px) {
@@ -56,5 +73,9 @@
     }
     .color{
         height: 50px;
+    }
+    
+    .qr{
+      width: 110%;
     }
 }
