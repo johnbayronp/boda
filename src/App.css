@@ -5,7 +5,6 @@ html, body {
   Margin:0;
 }
 
-
 .heart-loading{
   background: #f8fffa;
   height: 100vh;
@@ -25,6 +24,15 @@ html, body {
   animation-duration: 2s;
   animation: latidos infinite;
 
+}
+:root{
+  --color-primary:#AD4659;
+  
+  --color-secondary: #E1B167;
+  
+  --color-light: #C8858E;
+  --color-textContrast: white; 
+  --color-dark:#6C2020;
 }
 
 ::-webkit-scrollbar {

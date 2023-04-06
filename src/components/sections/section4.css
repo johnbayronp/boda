@@ -1,13 +1,13 @@
 
   .title-bg-2{
     font-size:5.2rem;
-    color:#418f76;
+    color:var(--color-primary);
     font-family: 'Great Vibes';
     font-weight: 500;
     text-align: center;
   }
   .color{
-    color:#418f76;
+    color:var(--color-light);
   }
   .mar-custom{
     margin-top: 19px;
@@ -18,32 +18,62 @@
         justify-content: center;
         height: 698px;
         background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.55)) , url("../../img/LEAVES_BACKGROUND.jpg") ;
-        background-color: #f8fffa;
+        background-color: whitesmoke;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
     }
     .division{
         width: 80%;
-        color:#24955bba
+        color:var(--color-secondary)
     }
     .card{
-       --bs-card-bg: #083c0c1f !important;
+       --bs-card-bg: #ffaaaa1f !important;
        --bs-card-border-width: 0px !important;
+       justify-content: center;
     }
     .card-title{
         font-family: 'Poppins';
-        color: #277e62;
+        color: var(--color-dark);
     }
     .card-text {
         color:#2c1f1fed;
         font-family:'Poppins';
-        
+    }
+    .qr{
+      width: 80%;
+    }
+    .card-body{
+      flex: 1;
+      text-align-last: center;
     }
     .btn-success{
-        --bs-btn-hover-border-color: #36a973;
-        --bs-btn-bg: #449b72e3;
+      
+        --bs-btn-border-color: var(--color-primary);
+        --bs-btn-bg: var(--color-primary);
+        --bs-btn-active-bg:var(--bs-btn-bg);
         font-family: 'Poppins';
+    }
+    .btn-success:hover{
+      --bs-btn-hover-bg:var(--color-secondary);
+      --bs-btn-hover-border-color: var(--bs-btn-hover-bg);
+    }
+    .btn-success:active{
+      border-color:var(--color-primary);
+    }
+    .btn-success:focus{
+      border-color:var(--color-primary);
+      background-color: var(--color-primary);
+    }
+    .center-qr{
+      text-align: center !important;
+    }
+    .morado {
+      color: white  !important;
+    }
+    .morado-card {
+      
+      --bs-card-bg:#22004c !important;
     }
 
 @media (max-width: 425px) {
@@ -56,5 +86,9 @@
     }
     .color{
         height: 50px;
+    }
+    
+    .qr{
+      width: 110%;
     }
 }

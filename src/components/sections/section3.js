@@ -8,7 +8,7 @@ export const Section3 = () => {
     return (
         <div className='d-flex section-img-container-back'>
             <div className='gallery-header-title'>
-                    <h1 className='title-bg'> Galería </h1>
+                    <h1 className='title-bg color-secound'> Galería </h1>
                     <div
                         id="carouselExampleDark"
                         className="carousel carousel-dark slide"

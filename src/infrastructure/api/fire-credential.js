@@ -1,6 +1,6 @@
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
-import 'firebase/compat/auth';
+import {getAuth} from 'firebase/auth';
 
 var credential =  {
     apiKey: "AIzaSyAPNZpW8AIqaC4ICNApcrmB61AsXhBsKSk",
@@ -14,4 +14,5 @@ var credential =  {
 
 const fb = firebase.initializeApp(credential);
 const db = fb.firestore()
+export const auth = getAuth(fb);
 export default db

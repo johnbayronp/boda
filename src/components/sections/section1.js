@@ -13,9 +13,10 @@ export const Section1 = ({ bodaName, date }) => {
                     </div>
 
                     <div className="col">
-                        <h1 className='title-bio'> ¡Nos Casamos!</h1>
-                        <p className='body-bio'>En esta historia que Dios ha escrito para nosotros, hemos vivido el poder de su amor, un amor grande y valioso que cada día se enciende más.
-Es por esto que queremos hacer un pacto ante Dios para siempre y construir de su mano nuestro hogar. Lo que nos llena de gozo compartir este tiempo con ustedes.</p>
+                        <h1 className='title-bio'> ¡Nuestra historia de amor!</h1>
+                        <p className='body-bio'>
+                            Nació en el corazón de Dios que todo lo ha hecho hermoso en su tiempo y quiso que nuestras vidas se juntaran, estamos felices de entrar en pacto con Dios y vivir juntos una nueva aventura. Deseamos celebrar y compartir contigo la alegría de unir nuestras vidas en matrimonio.
+                        </p>
                     </div>
                 </div>
             </div>

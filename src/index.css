@@ -1,6 +1,8 @@
-html, body {
+html,
+body {
     Width: 100%;
     Box-sizing: border-box;
-    Padding:0;
-    Margin:0;
+    Padding: 0;
+    Margin: 0;
 }
+

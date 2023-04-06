@@ -5,6 +5,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO-7.png") ;
     opacity: 90%;
     background-color: black;
+    flex-direction: column;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -19,9 +20,65 @@
 
   .title-bg{
     font-size:5.2rem;
-    color:#418f76;
+    color:var(--color-textContrast);
     font-family: 'Great Vibes';
     font-weight: 500;
+  }
+  .color-secound{
+    color:var(--color-primary) !important;
+  }
+  .oculta{
+    display: none;
+  }
+
+  .remove{
+    
+    top:150px;
+    text-align:center;
+    padding:10px;
+    font-family:'poppins';
+    border-radius:150px;
+    opacity:70%;
+    color:white;
+
+    font-size: 0px;
+    position: relative;
+    animation: remove 0.5s ;
+  }
+  
+  @keyframes remove {
+    0% {
+      opacity: 60%;
+    }
+    50% {
+      opacity: 10%;
+    }
+    100%{
+      opacity: 0%;
+    }
+    
+  }
+
+
+  .audio-voice{
+    top:92px;
+    text-align:center;
+    padding:10px;
+    font-family:'poppins';
+    border-radius:150px;
+    opacity:70%;
+    color:white;
+    position: relative;
+    animation: touch 1.8s infinite;
+  }
+  @keyframes touch {
+    0%, 100% {
+      font-size: 20px;
+    }
+    50% {
+      font-size: 22px;
+    }
+    
   }
 
   .subtitle-boda{
@@ -59,7 +116,7 @@
   }
 
   .title-Message{
-    color:#418f76;
+    color:#ff7b7b;
     font-family: 'Bebas Neue';
     margin-left: 20px;
     font-size:1.5rem;
@@ -85,7 +142,9 @@
     font-size: 0.7rem ;
     letter-spacing: 0.025em ;
   }
-  
+  .audio-voice{
+    top:112px;
+  }
   .title-bg{
     font-size: 3.2rem;
   }
