@@ -14,7 +14,7 @@ export const Participativa = ({nombres, fecha}) => {
      <Section1 /> 
      <Section2 />
      <Section3 />
-     <Section4 participativa={true}/>
+     <Section4 participativa={false}/>
      <Message /> 
      <Footer/>
     </> 

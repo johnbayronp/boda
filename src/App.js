@@ -33,13 +33,13 @@ function App() {
           <Route  path={"/participativa"} element={
             (loading) ? 
             <Loader/>:
-            <Participativa nombres={"Jhon & Angie"} fecha={"10-09-22"}/>
+            <Participativa nombres={"Luis & Nancy"} fecha={"10-09-22"}/>
           }/>
 
           <Route path="/" element={   
               (loading) ? 
                 <Loader/>:
-              <Home nombres={"Jhon & Angie"} fecha={"10-09-22"}/>
+              <Home nombres={"Luis & Nancy"} fecha={"10-09-22"}/>
             }/>
 
           <Route path="/login" element = {

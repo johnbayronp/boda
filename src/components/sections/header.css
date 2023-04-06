@@ -20,9 +20,12 @@
 
   .title-bg{
     font-size:5.2rem;
-    color:#418f76;
+    color:var(--color-textContrast);
     font-family: 'Great Vibes';
     font-weight: 500;
+  }
+  .color-secound{
+    color:var(--color-primary) !important;
   }
   .oculta{
     display: none;
@@ -113,7 +116,7 @@
   }
 
   .title-Message{
-    color:#418f76;
+    color:#ff7b7b;
     font-family: 'Bebas Neue';
     margin-left: 20px;
     font-size:1.5rem;

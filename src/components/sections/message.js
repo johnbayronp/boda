@@ -8,14 +8,12 @@ export const Message = () => {
             <div className='header-title'>
 
                 <p className='title-Message'>
-                    Dios nos dio un proposito y es formar familias fundamentadas en Él, No hay mejor regalo y muestra de su amor que encontrar esa ayuda idonea para ti.
+                Tres cosas durarán para siempre: la fe, la esperanza y el amor; y la mayor de las tres es el amor.
                 </p>
                 <p className='title-Message'>
-                    El hombre que halla esposa encuentra un tesoro, y recibe el favor del señor. (Prov. 18:22)
-                </p>
-                
-                <span className='subtitle-boda'> Nos hemos encontrado y por eso nos casamos.</span>
-            </div>
+                1 Corintios 13:13 (Nueva Traducción Viviente)
+                </p>  
+             </div>
         </div>
 
     )

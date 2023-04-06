@@ -11,7 +11,7 @@
 .section-container-back{
     
     justify-content: center;
-    background-color: #98e4af79;
+    background-color: var(--color-light);
     height: 400px;
 
 }
@@ -30,7 +30,7 @@
 }
 
 .section-container2{
-    background-color: #408153;
+    background-color: var(--color-light);
     height: 100vh;
 }
 
@@ -47,7 +47,7 @@
 
 .title-bio{
 
-    color:#418f76;
+    color:var(--color-primary);
     font-family: 'Great Vibes';
     font-size: 4rem;
 }
@@ -83,7 +83,7 @@
 }
 
 .carousel-dark .carousel-indicators [data-bs-target] {
-    background-color: #418f76 !important;
+    background-color: var(--color-dark) !important;
     height: 10px !important;
     width: 10px !important;
     border-radius: 50% !important;
