@@ -10,10 +10,9 @@
 .inpt{
     font-family: 'poppins' !important;
 }
-
 .sidenav {
     height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO1.jpg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/foto5.jpeg") ;
     background-position:10% 40%;
     background-size: 800px;
     overflow-x: hidden;
