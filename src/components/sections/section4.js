@@ -15,7 +15,7 @@ export const Section4 = ({participativa}) => {
                         <h1 className='title-bg-2'> Lugar </h1>
                         <div className="card mb-4">
                         <div className="card-body">
-                            <h5 className="card-title">Ceremonia 3PM</h5>
+                            <h5 className="card-title">Ceremonia 4PM</h5>
                             <p className="card-text muted">La primavera - Km 2 Via Sirivana, Yopal, Casanare</p>
                             <a href="https://goo.gl/maps/A3y2fRdU4bJZXopt7" className="btn btn-success d-flex justify-content-center">Como llegar</a>
                         </div>
