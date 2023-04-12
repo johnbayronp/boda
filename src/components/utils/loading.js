@@ -21,7 +21,7 @@ export const Loader = () => {
                     repeatCount="indefinite"/>
 
         </svg>
-        <span className='loading-text' > Nuestra boda</span>
+        <span className='loading-text' > Luis & Nancy</span>
       </div>
     )
   }
