@@ -1,6 +1,5 @@
 import React from 'react'
 import './section4.css'
-import qr from '../../img/qr-donation.jpg'
 
 export const Section4 = ({participativa}) => {
     

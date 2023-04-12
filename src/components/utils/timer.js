@@ -13,7 +13,7 @@ export const Timer = ({fecha}) => {
 
         setDays(Math.floor(distance/(1000 * 60 * 60 *24)))
         setHour(Math.floor((distance % (1000 * 60 *60 *24))/(1000*60*60)));
-        setMinutes(Math.floor((distance%(1000*60))/(1000)));
+        setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
 
     },1000)
   

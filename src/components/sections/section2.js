@@ -7,7 +7,7 @@ export const Section2 = () => {
         <div className='d-flex section-container-back'> 
             <div className='header-title'>
                  <h1 className='title-bg'> Faltan </h1> 
-                 <Timer fecha={'Apr 09, 2023 15:00:00'}/>
+                 <Timer fecha={'Apr 30, 2023 16:00:00'}/>
             </div>
         </div>
 

@@ -16,7 +16,7 @@ function App() {
 
   setTimeout(() => {
     setLoading(false)
-  }, 4700);
+  }, 2700);
 
   return (
     
@@ -33,13 +33,13 @@ function App() {
           <Route  path={"/participativa"} element={
             (loading) ? 
             <Loader/>:
-            <Participativa nombres={"Luis & Nancy"} fecha={"10-09-22"}/>
+            <Participativa nombres={"Luis & Nancy"} fecha={"04-30-23"}/>
           }/>
 
           <Route path="/" element={   
               (loading) ? 
                 <Loader/>:
-              <Home nombres={"Luis & Nancy"} fecha={"10-09-22"}/>
+              <Home nombres={"Luis & Nancy"} fecha={"04-30-23"}/>
             }/>
 
           <Route path="/login" element = {

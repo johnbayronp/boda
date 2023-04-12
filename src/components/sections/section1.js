@@ -1,6 +1,6 @@
 import React from 'react'
 import './section.css'
-import foto1 from '../../img/FOTO1.jpg'
+import foto1 from '../../img/foto1.jpeg'
 
 export const Section1 = ({ bodaName, date }) => {
     return (

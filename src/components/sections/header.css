@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/FOTO-7.png") ;
-    opacity: 90%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../../img/foto6.jpeg") ;
+    opacity: 95%;
     background-color: black;
     flex-direction: column;
     background-repeat: no-repeat;
@@ -94,12 +94,12 @@
     display: flex;
     justify-content: center;
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.809)) , url("../../img/FOTO-7.png") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.809)) , url("../../img/foto3.jpeg") ;
     opacity: 90%;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: top;
   }
   
   .header-title{
