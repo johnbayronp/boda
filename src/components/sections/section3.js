@@ -1,11 +1,12 @@
 import React from 'react'
 import './section.css'
-import image1 from '../../img/FOTO2.jpg'
-import image2 from '../../img/FOTO3.jpg'
-import image3 from '../../img/FOTO-6.jpg'
+import image1 from '../../img/foto2.jpeg'
+import image2 from '../../img/foto5.jpeg'
+import image3 from '../../img/foto4.jpeg'
+import {GalleryComponent} from '../sections'
 
 export const Section3 = () => {
-    return (
+    return (<>
         <div className='d-flex section-img-container-back'>
             <div className='gallery-header-title'>
                     <h1 className='title-bg color-secound'> Galería </h1>
@@ -51,7 +52,12 @@ export const Section3 = () => {
                         </div>
                     </div>
             </div>
+              
         </div>
+        
+        <GalleryComponent/>  
+        </>
+
 
     )
 }

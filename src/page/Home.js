@@ -1,9 +1,7 @@
 import React from 'react'
 import moment from 'moment';
 import 'moment/locale/es';
-import { Header,Section1,Section2,Section3,Section4,Message,Footer, Streamer, SectionConfirmed} from '../components/sections';
-import { ModalConfirmed } from '../components/utils';
-
+import { Header,Section1,Section2,Section3,Section4,Message,Footer, SectionConfirmed} from '../components/sections';
 
 
 export const Home = ({nombres, fecha}) => {
@@ -16,7 +14,7 @@ export const Home = ({nombres, fecha}) => {
      <Section1 /> 
      <Section2 />
      <Section3 />
-     <Message />  
+     <Message />
      <Section4/>
      {/*<Streamer/>*/}
      <SectionConfirmed/>
