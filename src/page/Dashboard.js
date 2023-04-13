@@ -15,7 +15,7 @@ export const Dashboard = () => {
     const navigate = useNavigate();
     const { usuarioLogged, logOut } = useUserAuth();
 
-    const CLIENTE_ID = '1102874619'    
+    const CLIENTE_ID = '1118536246'    
     const [invitados, setInvitados] = useState([])
     
     const getInvitados = async() => {
