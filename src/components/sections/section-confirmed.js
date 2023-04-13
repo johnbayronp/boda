@@ -4,7 +4,7 @@ import {ModalConfirmed} from '../utils/modal-confirmed';
 import db from '../../infrastructure/api/fire-credential';
 
 export const SectionConfirmed = () => {
-    const CLIENTE_ID = "1102874619"
+    const CLIENTE_ID = "1118536246"
     const [invitados, setInvitados] = useState([])
 
     const getInvitados = async() => {
