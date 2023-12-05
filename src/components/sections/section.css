@@ -7,6 +7,9 @@
     background-size: cover;
     background-position: center;
 }
+.bioWedding{
+    height: 103vh !important;
+}
 
 .section-container-back{
     
@@ -139,6 +142,11 @@
         height: 114vh;
         background-position: 53% 48%;
     }
+    
+    .bioWedding{
+        height: 114vh !important;
+    }
+
 
 }
 
@@ -164,6 +172,10 @@
     .section-container{
         height: 73vh;
         background-position: 25% 48%;
+    }
+    
+    .bioWedding{
+        height: 73vh !important;
     }
     
     .title-bio{

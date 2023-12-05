@@ -26,13 +26,11 @@ html, body {
 
 }
 :root{
-  --color-primary:#AD4659;
-  
-  --color-secondary: #E1B167;
-  
-  --color-light: #C8858E;
+  --color-primary:#7a6fac;
+  --color-secondary: #5c4d9a;
+  --color-light: #9b91c1;
   --color-textContrast: white; 
-  --color-dark:#6C2020;
+  --color-dark:rgb(83, 70, 139);
 }
 
 ::-webkit-scrollbar {

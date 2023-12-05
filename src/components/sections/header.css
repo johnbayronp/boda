@@ -94,12 +94,12 @@
     display: flex;
     justify-content: center;
     height: 70vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.809)) , url("../../img/foto3.jpeg") ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.859), rgba(0, 0, 0, 0.70)) , url("../../img/foto3.jpeg") ;
     opacity: 90%;
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: top;
+    background-position: center;
   }
   
   .header-title{

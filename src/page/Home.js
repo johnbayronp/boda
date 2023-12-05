@@ -11,13 +11,14 @@ export const Home = ({nombres, fecha}) => {
   return (
     <>
      <Header bodaName={nombres} date={dateString}/>   
+     
      <Section1 /> 
      <Section2 />
      <Section3 />
-     <Message />
      <Section4/>
      {/*<Streamer/>*/}
      <SectionConfirmed/>
+     <Message />
      <Footer/>
     </> 
   )

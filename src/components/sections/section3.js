@@ -1,8 +1,9 @@
 import React from 'react'
 import './section.css'
-import image1 from '../../img/foto2.jpeg'
-import image2 from '../../img/foto5.jpeg'
-import image3 from '../../img/foto4.jpeg'
+import image1 from '../../img/foto1.jpeg'
+import image2 from '../../img/foto6.jpeg'
+import image3 from '../../img/foto11.jpeg'
+import image4 from '../../img/foto8.jpeg'
 import {GalleryComponent} from '../sections'
 
 export const Section3 = () => {
@@ -38,6 +39,13 @@ export const Section3 = () => {
                                 aria-label="Slide 3"
                                 className=""
                             ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleDark"
+                                data-bs-slide-to="3"
+                                aria-label="Slide 4"
+                                className=""
+                            ></button>
                         </div>
                         <div className="carousel-inner">
                             <div className="carousel-item active" data-bs-interval="2000">
@@ -46,8 +54,11 @@ export const Section3 = () => {
                             <div className="carousel-item" data-bs-interval="2000">
                                 <img src={image2} alt="foto-x2" className='photo-gallery' />
                             </div>
+                            <div className="carousel-item" data-bs-interval="2000">
+                                <img src={image3} alt="foto-x2" className='photo-gallery' />
+                            </div>
                             <div className="carousel-item">
-                                <img src={image3} alt="foto-x3" data-bs-interval="500" className='photo-gallery' />
+                                <img src={image4} alt="foto-x3" data-bs-interval="500" className='photo-gallery' />
                             </div>
                         </div>
                     </div>

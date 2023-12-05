@@ -5,7 +5,7 @@ import './footer.css'
 export const Footer = ({bodaName, date}) => {
   return (
     <div className='footer'> 
-            <h5 className='d-flex justify-content-center creditos'>Boda Luis & Nancy - La Primavera</h5>
+            <h5 className='d-flex justify-content-center creditos'>Boda Victor & Daniela - Cinamillo Eventos- Kilómetro 6 vía Sirivana</h5>
             
 {/*
                 <a href='https://api.whatsapp.com/send?phone=573104770034&app=facebook&entry_point=page_cta&fbclid=IwAR1psgzQwgXcnLWDxmK4vNilRJOuk-ndncZo0W4JyfNX-N88a-pNsU-NwH4'>
