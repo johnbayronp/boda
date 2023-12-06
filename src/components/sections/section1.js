@@ -24,7 +24,6 @@ export const Section1 = ({ bodaName, date }) => {
                         Es así como deseamos celebrar esta unión con ustedes. 
                         Esperamos contar contigo. 
                         <br></br>
-                        Los niños en casa y los papitos disfrutando.
                         </p>
                     </div>
                 </div>

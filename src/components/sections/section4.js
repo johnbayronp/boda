@@ -17,6 +17,7 @@ export const Section4 = ({participativa}) => {
                         <div className="card-body">
                             <h5 className="card-title">Ceremonia 3:30 PM</h5>
                             <p className="card-text muted">Cinamillo Eventos- Kilómetro 6 vía Sirivana, Yopal, Casanare</p>
+                            <span className='card-text muted' style={{fontWeight:600,}}>Nota: Los niños en casa y los papitos disfrutando. </span>
                             <a href="https://maps.app.goo.gl/qn7wBVv4zHQfXuSQ8" className="btn btn-success d-flex justify-content-center">Como llegar</a>
                         </div>
                         </div>
