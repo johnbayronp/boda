@@ -8,10 +8,12 @@ export const Message = () => {
             <div className='header-title'>
 
                 <p className='title-Message'>
-                Tres cosas durarán para siempre: la fe, la esperanza y el amor; y la mayor de las tres es el amor.
+                Fielmente les daré su recompensa, Y haré con ellos un pacto eterno.
+                Entonces su descendencia será conocida entre las naciones, Y sus vástagos en medio de los pueblos. Todos los que los vean los reconocerán, Porque son la simiente que el Señor ha bendecido.
+
                 </p>
                 <p className='title-Message'>
-                1 Corintios 13:13 (Nueva Traducción Viviente)
+                    Isaías 61:8-9 ( NBLA )
                 </p>  
              </div>
         </div>
