@@ -75,7 +75,13 @@
       
       --bs-card-bg:#22004c !important;
     }
-
+    
+    .icon-wedding {
+      height:28vh;
+    }
+    .most-big {
+      height: 1000px !important;
+    }
 @media (max-width: 425px) {
     .card{
         padding: 19px;
@@ -88,7 +94,15 @@
         height: 50px;
     }
     
+    .most-big {
+      height: 850px !important;
+    }
+
     .qr{
       width: 110%;
+    }
+
+    .icon-wedding {
+      height:24vh;
     }
 }
