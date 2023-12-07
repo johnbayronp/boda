@@ -13,7 +13,7 @@ export const ModalConfirmed = ({ people }) => {
     const handleSearch = ( e ) => {
         if( inputValue !== ''){
             if(inputValue.length > 1) {
-                console.log(people)
+                //console.log(people)
                 let finded = people.filter(invitado => invitado.nombreCompleto.includes(inputValue.toLowerCase()))
                
                 if(finded.length === 0) {
