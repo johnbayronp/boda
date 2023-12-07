@@ -15,7 +15,7 @@ export const Section1 = ({ bodaName, date }) => {
                     <div className="col ">
                         <h1 className='title-bio'> Nuestra historia de amor</h1>
                         <p className='body-bio'>
-                        Y quien creia que los designios de Dios era unir nuestras vidas, todo lo estaba orquestando en su Corazon incluso antes de que llegaramos a esta tierra  y su amor ya hace más de una año a dado un vuelco en nuestros Corazones.
+                        Y quien creia que los designios de Dios era unir nuestras vidas, todo lo estaba orquestando en su Corazón incluso antes de que llegaramos a esta tierra  y su amor ya hace más de un año a dado un vuelco en nuestros Corazones.
                         <br></br>
                         Por lo cual hemos decidido  unirnos en amor, obediencia y Fe. En el Pacto del Matrimonio por que así a hablando nuestro Dios. 
                         <br></br><br></br>
