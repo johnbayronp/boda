@@ -4,7 +4,7 @@ import {ModalConfirmed} from '../utils/modal-confirmed';
 import db from '../../infrastructure/api/fire-credential';
 
 export const SectionConfirmed = () => {
-    const CLIENTE_ID = "1118536246"
+    const CLIENTE_ID = "1118551445"
     const [invitados, setInvitados] = useState([])
 
     const getInvitados = async() => {
@@ -12,6 +12,7 @@ export const SectionConfirmed = () => {
         .onSnapshot( (snapshot) => { 
             let docs = [];
             snapshot.forEach(doc => {
+                console.log('===>',doc)
                 docs.push({
                     ...doc.data(),
                     id:doc.id,
